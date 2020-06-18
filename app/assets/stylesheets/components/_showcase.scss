@@ -1,12 +1,12 @@
 .showcase {
   .showcase-text {
-    padding: 3rem;
+    // padding: 3rem;
   }
   .showcase-img-1 {
     background-image: url("bg-showcase-1.jpg");
     min-height: 30rem;
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   .showcase-img-2 {
@@ -34,5 +34,18 @@
     .showcase-text {
       padding: 7rem;
     }
+  }
+}
+
+#quote-background {
+  background-color: #0077ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  h2 {
+    color: white;
+  }
+  h1{
+    color: white;
+    font-size: 80px;
   }
 }
