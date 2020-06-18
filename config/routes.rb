@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get "espanol", to: "pages#home_es"
   get "english", to: "pages#home_en"
 
+  resources :subscribers
+
 end
