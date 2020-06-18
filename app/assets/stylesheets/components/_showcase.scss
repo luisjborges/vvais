@@ -2,9 +2,33 @@
   .showcase-text {
     padding: 3rem;
   }
-  .showcase-img {
+  .showcase-img-1 {
+    background-image: url("bg-showcase-1.jpg");
     min-height: 30rem;
     background-size: cover;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .showcase-img-2 {
+    background-image: url("bg-showcase-2.jpg");
+    min-height: 30rem;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .showcase-img-3 {
+    background-image: url("bg-showcase-3.jpg");
+    min-height: 30rem;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .showcase-img-4 {
+    background-image: url("bg-showcase-1.jpg");
+    min-height: 30rem;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   @media (min-width: 768px) {
     .showcase-text {
