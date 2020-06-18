@@ -1,0 +1,13 @@
+<!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "logo.png" %>
+      <% end %>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <%= link_to "Español", espanol_path, class: "nav-link", id: "link-color" %>
+        </li>
+      </ul>
+    </div>
+  </nav>
