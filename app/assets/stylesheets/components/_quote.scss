@@ -1,0 +1,15 @@
+.quote {
+  position: relative;
+  background-color: #0077ff;
+  padding-top: 24px;
+  @include background-cover;
+  .overlay {
+    position: absolute;
+    background-color: $gray-900;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+}
