@@ -1,0 +1,41 @@
+.banner {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+// .home-banner {
+
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   height: 100vh;
+//   color: #eee;
+//   text-align: center;
+//   padding-top: 40vh;
+//   max-width: 100%;
+//   display: block;
+//   p {
+//     padding-top: 10px;
+//   }
+//   h1 {
+//   font-size: 30px;
+//   color: #ff69b4;
+//   padding: 8px;
+//   font-family: "Sporting Grotesque";
+//   text-align: center;
+//   border-radius: 16px;
+//   // margin-top: 90px;
+//   }
+// }
