@@ -1,43 +1,43 @@
 .banner {
-  background-image: url("background.png");
+  background-image: url("hero-sina.png");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin-bottom: 20px;
   padding: 200px 0;
   height: 100%;
 }
 
 .banner h1 {
-  color: white;
+  color: black;
+  font-size: 50px;
 }
 
 .banner p {
-  color: white;
-  opacity: .7;
+  color: black;
   font-size: 20px;
 }
 
-// .home-banner {
-
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   height: 100vh;
-//   color: #eee;
-//   text-align: center;
-//   padding-top: 40vh;
-//   max-width: 100%;
-//   display: block;
-//   p {
-//     padding-top: 10px;
-//   }
-//   h1 {
-//   font-size: 30px;
-//   color: #ff69b4;
-//   padding: 8px;
-//   font-family: "Sporting Grotesque";
-//   text-align: center;
-//   border-radius: 16px;
-//   // margin-top: 90px;
-//   }
-// }
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    font-size: 30px;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner {
+    font-size: 30px;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner h1 {
+    font-size: 36px;
+    padding-top: 20px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+}

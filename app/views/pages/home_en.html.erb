@@ -3,8 +3,9 @@
 <div class="banner">
   <div class="container">
     <h1>Be our partner in bringing Innovation to Venezuela</h1>
-    <p>And together transform the lives of the many.</p>
+    <p>And transform the lives of the many, together.</p>
     <p>Our first seed starts here:</p>
+    <br>
     <a class="btn-primary" href="#support-now">Support now!</a>
   </div>
 </div>
@@ -15,11 +16,11 @@
 
       <div class="row no-gutters">
         <div class="col-lg-4 my-auto showcase-text", id="quote-background">
-          <h1><i>"</i></h1>
+          <h1><i>“</i></h1>
           <h2>We envision a future in which the great majority of Venezuelans create their own jobs</h2>
           <br>
           <br>
-          <h1><i>"</i></h1>
+          <h1><i>”</i></h1>
         </div>
         <div class="col-lg-8 my-auto showcase-text">
           <h2>A bright future</h2>
@@ -36,7 +37,7 @@
       </div>
 
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img-2"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img-1"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Hand in hand with SINA</h2>
           <p class="lead mb-0">A proven innovative model.</br> SINA is transforming marginalized youth into Social Entrepreneurs.</p>
@@ -44,6 +45,8 @@
           <p class="lead mb-0">We believe this model can be replicated in Venezuela and the journey begins sponsoring the training of two scholars in Africa.</p>
           </br>
           <p class="lead mb-0"><u>But we can’t do it without you.</u></p>
+          <br>
+          <%= image_tag "sina-logo.png", class: "img-fluid rounded-circle mb-3", alt: "sina-logo" %>
         </div>
       </div>
 
@@ -60,19 +63,26 @@
     </section>
 
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img-3" id="support-now"></div>
-        <div class="col-lg-6 my-auto showcase-text">
+        <div class="col-lg-6 text-white showcase-img-2" id="support-now"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <br>
+          <br>
+          <br>
+          <br>
           <h2>We want to do this <u>WITH YOU!</u></h2>
           <h4>Make a one time donation</h4>
+          <br>
           <p class="lead mb-0">A quality education transform lives and communities.</br>And you're part of this. It starts with you today.</p>
           <br>
           <br>
+          <br>
           <a class="btn-primary" href="https://paypal.me/pools/c/8q6j7goTxD">Go to <i>PayPal</i></a>
+          <br>
         </div>
       </div>
 
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img-1"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img-3"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>How are we using the money?</h2>
           <p class="lead mb-0"><u>Our goal is to reach 20,000 EUROS.</u></p>
@@ -95,25 +105,48 @@
       <h2 class="mb-5">We've got the support of our main partners at SINA and a great team!</h2>
 
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Etienne S.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
+            <%= image_tag "Luis.png", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
+            <div class="col-lg-6 order-lg-2 text-white showcase-img-2"></div>
+            <h5>Luis B.</h5>
+            <h6>@ Berlin, Germany 🇩🇪</h6>
+            <h6>Founder of VVAIS - Germany</h6>
+            <br>
             <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
           </div>
         </div>
-        <div class="col-lg-4">
+
+        <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+            <%= image_tag "testimonials-2.jpg", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
+            <h5>Elgin H.</h5>
+            <h6>@ Berlin, Germany 🇩🇪</h6>
+            <h6>Founder of SINA</h6>
+            <br>
+            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <%= image_tag "Etienne.png", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
+            <h5>Etienne S.</h5>
+            <h6>@ Mpigi, Uganda 🇺🇬</h6>
+            <h6>Creative Direction of VVAIS</h6>
+            <br>
+            <p class="font-weight-light mb-0">“I hope to see SINA in Venezuela very soon. The journey has started today...”</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <%= image_tag "Alfredo.png", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
             <h5>Alfredo V.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            <h6>@ Cumana, Venezuela 🇻🇪</h6>
+            <h6>Co-Founder of VVAIS - Venezuela</h6>
+            <br>
+            <p class="font-weight-light mb-0">"SINA is "</p>
           </div>
         </div>
       </div>
