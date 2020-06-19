@@ -1,2 +1,32 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!-- Navigation -->
+  <nav class="navbar navbar-light static-top">
+    <div class="container", id="navbar-color">
+      <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "logo.png" %>
+      <% end %>
+    </div>
+  </nav>
+
+
+<div class="imprint">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-8">
+        <h1>Imprint</h1>
+        <p>vvais gGmbH i.G</p>
+        <p>Weserstr. 16, 12047 Berlin</p>
+        <p>Supported by SINA uUG</p>
+        </br>
+        <div class="imprint" id="last-section">
+          <h1>Contact</h1>
+          <p>Luis Borges</p>
+          <p>Phone: +49 176 59263731</p>
+          <p>E-Mail: hola@vvais.org</p>
+          <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. Quelle: e-recht24.de</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'shared/footer' %>
