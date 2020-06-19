@@ -53,7 +53,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">“You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.” </br>― R. Buckminster Fuller</h2>
+            <h2 class="mb-4"><i>“You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.” </i></br></br>― R. Buckminster Fuller</h2>
           </div>
         </div>
       </div>
@@ -131,17 +131,7 @@
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <div class="form-row">
               <div class="col-12">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-8">
-            <%= simple_form_for Subscriber.new do |f| %>
-              <%= f.input :name, placeholder: "Name", label: false %>
-              <%= f.input :email, placeholder: "Email", label: false %>
-              <%= f.button :submit, "Submit", class: 'btn-primary' %>
-          <% end %>
-    </div>
-  </div>
-</div>
+                <%= render "subscribers/form" %>
               </div>
             </div>
           </form>
