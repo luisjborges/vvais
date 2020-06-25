@@ -31,7 +31,10 @@ import "bootstrap";
 import { GoogleAnalytics } from '../packs/google_analytics.js.erb';
 GoogleAnalytics();
 
-document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  // initSelect2();
-});
+document.addEventListener('turbolinks:load', function(event) {
+  if (typeof gtag === 'function') {
+    gtag('config', '<%= Rails.application.credentials.dig(:google_analytics) %>', {
+      'page_location': event.data.url
+    })
+  }
+})
