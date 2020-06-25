@@ -2,8 +2,25 @@
   position: relative;
   background-color: #0077ff;
   @include background-cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .overlay {
+    position: absolute;
+    background-color: #0077ff;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+}
+
+.survey {
+  position: relative;
+  background-color: #0077ff;
+  @include background-cover;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   .overlay {
     position: absolute;
     background-color: #0077ff;

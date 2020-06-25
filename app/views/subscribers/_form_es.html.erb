@@ -1,0 +1,11 @@
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-8">
+            <%= simple_form_for Subscriber.new do |f| %>
+              <%= f.input :name, placeholder: "Nombre", label: false %>
+              <%= f.input :email, placeholder: "Email", label: false %>
+              <%= f.button :submit, "Enviar", class: 'btn-primary' %>
+          <% end %>
+    </div>
+  </div>
+</div>
