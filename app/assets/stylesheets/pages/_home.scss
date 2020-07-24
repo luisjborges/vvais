@@ -136,7 +136,13 @@ header.masthead h1 {
   /* For a screen < 540px, this CSS will be read */
   .btn-primary {
     height: 60px;
-    width: 300px;
-    font-size: 20px;
+    width: 280px;
+    font-size: 18px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
   }
 }
+
+
