@@ -29,6 +29,11 @@ h1, h2, h3, h4 {
   font-family: Poppins;
 }
 
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 a {
   text-decoration: none;
 }
@@ -125,4 +130,13 @@ header.masthead h1 {
   padding-top: 40px;
   padding-bottom: 100px;
   background-color: white;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .btn-primary {
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+  }
 }

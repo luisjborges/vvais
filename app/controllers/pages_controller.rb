@@ -18,4 +18,10 @@ class PagesController < ApplicationController
   def privacy
   end
 
+  def pf
+  end
+
+  def faq
+  end
+
 end
