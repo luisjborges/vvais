@@ -8,12 +8,23 @@
 }
 
 .banner-scholars {
-  background-image: url("hero-sina.png");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('hero-mm.jpeg');
   background-size: cover;
   background-position: top;
+  color: white;
   margin-bottom: 20px;
-  padding: 200px 0;
+  padding: 300px 0;
   height: 100%;
+  h1 {
+    font-size: 60px;
+    text-align: right;
+    margin-right: 50px;
+  }
+  h4 {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 50px;
+  }
 }
 
 .banner h1 {
@@ -32,12 +43,36 @@
     font-size: 30px;
     padding-top: 0px;
   }
+  .banner-scholars {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('hero-mm.jpeg');
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 20px;
+  height: 100%;
+  } h1 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 10px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .banner {
     font-size: 30px;
     padding-top: 0px;
+  }
+  .banner-scholars {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('hero-mm.jpeg');
+  background-size: cover;
+  background-position: top;
+  padding: 100px 0;
+  height: 100%;
+  } h1 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 10px;
   }
 }
 @media (max-width: 540px) {
@@ -48,5 +83,19 @@
   }
   .banner p {
     font-size: 16px;
+  }
+  .banner-scholars {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('hero-mm.jpeg');
+  background-size: cover;
+  background-position: top;
+  padding: 100px 0;
+  height: 100%;
+    h1 {
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    h4 {
+      font-size: 12px;
+    }
   }
 }

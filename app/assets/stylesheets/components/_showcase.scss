@@ -25,22 +25,39 @@
   }
   .showcase-img-3 {
     background-image: url("budget.png");
-    min-height: 30rem;
+    min-height: 17rem;
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .showcase-img-4 {
     background-image: url("budget-es.png");
-    min-height: 30rem;
+    min-height: 17rem;
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   @media (min-width: 768px) {
     .showcase-text {
       padding: 7rem;
     }
+  }
+  .showcase-img-5 {
+    background-image: url("mariela.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    height: 60vw;
+  }
+  .showcase-img-6 {
+    background-image: url("manuel.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60vw;
   }
 }
 
@@ -57,21 +74,42 @@
   }
 }
 
-// @media (max-width: 960px) {
-//   /* For a screen < 960px, this CSS will be read */
-//   .showcase-img-3 {
-//     background-image: url("sina-view.png");
-//   }
-// }
-// @media (max-width: 720px) {
-//   /* For a screen < 720px, this CSS will be read */
-//   .showcase-img-3 {
-//     background-image: url("sina-view.png");
-//   }
-// }
-// @media (max-width: 540px) {
-//   /* For a screen < 540px, this CSS will be read */
-// .showcase-img-3 {
-//     background-image: url("sina-view.png");
-//   }
-// }
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .showcase .showcase-img-4 {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .showcase .showcase-img-5 {
+    height: 150vw;
+  }
+  .showcase .showcase-img-6 {
+    height: 150vw;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .showcase .showcase-img-4 {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .showcase .showcase-img-5 {
+    height: 150vw;
+  }
+  .showcase .showcase-img-6 {
+    height: 150vw;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .showcase .showcase-img-4 {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .showcase .showcase-img-5 {
+    height: 150vw;
+  }
+  .showcase .showcase-img-6 {
+    height: 150vw;
+  }
+}
