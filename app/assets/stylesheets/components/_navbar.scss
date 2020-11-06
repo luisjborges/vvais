@@ -8,7 +8,7 @@
 }
 
 .navbar-brand img {
-  width: 220px;
+  width: 160px;
 }
 
 #link-color {
@@ -17,8 +17,14 @@
 
 #link-color-lang {
   color: black;
+  text-decoration: underline;
 }
 
 .navbar {
   background-color: white;
+}
+
+#donate-now-color {
+  color: #ff0046;
+  font-weight: bolder;
 }
