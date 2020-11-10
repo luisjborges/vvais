@@ -27,12 +27,25 @@ body {
 
 h1, h2, h3, h4, p, a {
   font-family: Poppins;
+  color: #353535;
+}
+
+.h1-white h1 {
+  color: white;
+  font-size: 40px;
 }
 
 h4 {
   font-size: 20px;
   font-weight: 500;
   color: black;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  font-family: Poppins;
 }
 
 a {
@@ -45,6 +58,10 @@ a {
 
 .form-control {
   font-family: Poppins;
+}
+
+.home-label a {
+  color: white;
 }
 
 header.masthead {
