@@ -1,0 +1,43 @@
+.img-crowdfunding {
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.financial-icons {
+  overflow: hidden;
+  height: 68px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.financial-text p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  color: #353535;
+  margin-left: 100px;
+}
+
+.expenses-graph {
+  height: 400px;
+  width: 450px;
+}
+
+.finance-section {
+  display: flex;
+  h2 {
+    color: #353535;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .financial-icons h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 16px;
+  color: #353535;
+  }
+}
