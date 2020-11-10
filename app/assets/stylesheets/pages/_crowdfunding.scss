@@ -27,17 +27,29 @@
   width: 450px;
 }
 
-.finance-section {
-  display: flex;
-  h2 {
-    color: #353535;
-    font-size: 30px;
-    font-weight: 600;
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .expenses-graph {
+  height: 300px;
+  width: 300px;
+  padding-top: 40px;
   }
-  .financial-icons h2 {
-  font-size: 40px;
-  font-weight: 600;
-  margin-left: 16px;
-  color: #353535;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .expenses-graph {
+  height: 300px;
+  width: 300px;
+  padding-top: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .expenses-graph {
+  height: 300px;
+  width: 300px;
+  padding-top: 40px;
   }
 }

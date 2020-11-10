@@ -1,11 +1,11 @@
 <%= render "shared/navbar-en" %>
 
-<!-- <div class="alert alert-primary alert-dismissible fade show" role="alert" id="home-label">
+<div class="alert alert-primary alert-dismissible fade show" role="alert" id="home-label">
   <u>Attention:</u> Our Crowdfunding campaign has ended. Read more about our <%= link_to "next steps here", finance_tracker_path %>.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
-</div> -->
+</div>
 
 <div class="banner">
   <div class="container">
@@ -57,7 +57,9 @@
               <div class="h1-white">
                 <h1>55</h1>
               </div>
-            <h5>SUPPORTERS</h5>
+              <div class="h5-white">
+                <h5>SUPPORTERS</h5>
+              </div>
           </div>
         </div>
 
@@ -65,7 +67,10 @@
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <div class="col-lg-6 order-lg-2 text-white showcase-img-2"></div>
               <div class="h1-white">
-                <h1>€ 2500</h1><h5> / € 5,000</h5>
+                <h1>€ 2500</h1>
+              </div>
+              <div class="h5-white">
+                <h5>/ € 5,000</h5>
               </div>
           </div>
         </div>
@@ -168,7 +173,7 @@
           <p class="lead mb-0">A quality education transforms lives and communities. And you're part of this. It starts with you today.</p>
           <br>
           <br>
-          <p>You can support us using the donation gateway of our <strong>partner SINA in Germany</strong> to donate with debit or credit card, PayPal or bank transfer.</p>
+          <p class="lead mb-0">You can support us using the donation gateway of our <strong>partner SINA in Germany</strong> to donate with debit or credit card, PayPal or bank transfer.</p>
           <br>
           <%= image_tag "sina-logo.png", class: "img-fluid rounded-circle mb-3", alt: "sina-logo" %>
           <br>
@@ -191,6 +196,7 @@
           <div class="row">
             <div class="col-xl-9 mx-auto">
               <h2 class="mb-4">You have questions?</h2>
+              <br>
               <h2 class="mb-4"><u><strong>We've got answers!</strong></u></h2>
             </div>
               <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -205,26 +211,22 @@
         </div>
       </section>
 
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img-3"></div>
+    <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img-4"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>What do we do with your donation?</h2>
           <p>We're planting the first seed.</p>
-          <p class="lead mb-0"><u>Our goal is to reach 20,000 EUROS.</u></p>
+          <p class="lead mb-0"><u>Our goal is to reach 5,000 EUROS.</u></p>
           <p class="lead mb-0">The program starts in January 2021.</p>
           </br>
           <p class="lead mb-0">This is a one-year budget to finance:</p>
           </br>
-            <p class="lead mb-0">Flights = 10,000€</p>
-            <p class="lead mb-0">Training program = 5,000€</p>
-            <p class="lead mb-0">Documents & Visas = 1,000€</p>
-            <p class="lead mb-0">Travel logistics = 1,000€</p>
-            <p class="lead mb-0">Clothes and travel kits = 1,000€</p>
-            <p class="lead mb-0">Yearly allowance at SINA = 1,000€</p>
-            <p class="lead mb-0">Medical checkups = 500€</p>
-            <p class="lead mb-0">Others = 500€</p>
+            <p class = "lead mb-0"> Flight tickets = 4,000 €</p>
+            <p class = "lead mb-0"> Travel logistics = 400 €</p>
+            <p class = "lead mb-0"> Documentos ands visas = 300 €</p>
+            <p class = "lead mb-0"> Other expenses = 300 €</p>
             <br>
-            <p class="lead mb-0"><u>Total = 20,000€</u></p>
+            <p class = "lead mb-0"><u>Total = 5,000 €</u></p>
         </div>
       </div>
 
@@ -260,7 +262,7 @@
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <%= image_tag "Luis.png", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
             <div class="col-lg-6 order-lg-2 text-white showcase-img-2"></div>
-            <h5>Luis B.</h5>
+            <h2>Luis B.</h2>
             <h6>@ Berlin, Germany 🇩🇪</h6>
             <h6>Founder of VVAIS - Germany</h6>
             <br>
@@ -271,7 +273,7 @@
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <%= image_tag "Elgin.png", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
-            <h5>Elgin H.</h5>
+            <h2>Elgin H.</h2>
             <h6>@ Berlin, Germany 🇩🇪</h6>
             <h6>Creative Direction of VVAIS - Germany</h6>
             <br>
@@ -282,7 +284,7 @@
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <%= image_tag "Etienne.png", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
-            <h5>Etienne S.</h5>
+            <h2>Etienne S.</h2>
             <h6>@ Mpigi, Uganda 🇺🇬</h6>
             <h6>Founder of SINA</h6>
             <br>
@@ -293,7 +295,7 @@
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <%= image_tag "Alfredo.png", class: "img-fluid rounded-circle mb-3", alt: "avatar" %>
-            <h5>Alfredo V.</h5>
+            <h2>Alfredo V.</h2>
             <h6>@ Cumana, Venezuela 🇻🇪</h6>
             <h6>Co-Founder of VVAIS - Venezuela</h6>
             <br>

@@ -32,7 +32,12 @@ h1, h2, h3, h4, p, a {
 
 .h1-white h1 {
   color: white;
-  font-size: 40px;
+  font-size: 60px;
+}
+
+.h5-white h5 {
+  color: white;
+  font-size: 20px;
 }
 
 h4 {
@@ -46,6 +51,10 @@ h5 {
   font-weight: 500;
   color: white;
   font-family: Poppins;
+}
+
+ul {
+ font-family: Poppins;
 }
 
 a {
@@ -62,6 +71,23 @@ a {
 
 .home-label a {
   color: white;
+}
+
+.survey h2 {
+  color: white;
+}
+
+.call-to-action h2 {
+  color: white;
+}
+
+.quote h2 {
+  color: white;
+}
+
+.testimonial-item h6 {
+  font-family: Poppins;
+  color: #353535;
 }
 
 header.masthead {
