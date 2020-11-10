@@ -25,13 +25,13 @@ body {
   background-color: white;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p, a {
   font-family: Poppins;
 }
 
 h4 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 a {
@@ -40,6 +40,10 @@ a {
 
 .text-center {
   text-align: center;
+}
+
+.form-control {
+  font-family: Poppins;
 }
 
 header.masthead {
