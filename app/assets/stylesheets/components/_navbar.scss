@@ -25,6 +25,11 @@
 }
 
 #donate-now-color {
-  color: #ff0046;
+  color: white;
   font-weight: bolder;
+  border: 1px solid #ff0046;
+  background-color: #ff0046;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
 }
