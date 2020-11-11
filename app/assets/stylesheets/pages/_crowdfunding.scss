@@ -40,12 +40,24 @@
   width: 450px;
 }
 
+#crowd-quote {
+  color: white;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #0077ff;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .expenses-graph {
   height: 300px;
-  width: 300px;
-  padding-top: 40px;
+  width: 330px;
   }
 }
 
@@ -53,8 +65,7 @@
   /* For a screen < 720px, this CSS will be read */
   .expenses-graph {
   height: 300px;
-  width: 300px;
-  padding-top: 40px;
+  width: 330px;
   }
 }
 
@@ -62,7 +73,6 @@
   /* For a screen < 540px, this CSS will be read */
   .expenses-graph {
   height: 300px;
-  width: 300px;
-  padding-top: 40px;
+  width: 330px;
   }
 }
