@@ -112,20 +112,18 @@
   background-size: cover;
   color: white;
   padding-top: 300px;
-  padding-bottom: 400px;
+  padding-bottom: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   h1 {
     font-size: 60px;
     text-align: center;
-    margin-right: 50px;
     color: white;
   }
   h3 {
     font-size: 20px;
     text-align: center;
-    margin-right: 50px;
     font-weight: 300;
     color: white;
   }
@@ -201,13 +199,10 @@
 
 .money-icon {
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 60px;
-  width: 150px;
-  height: 200px;
+  padding-bottom: 20px;
+  height: 180px;
 }
 
 @media (max-width: 960px) {
@@ -233,4 +228,15 @@
   width: 100px;
   height: 150px;
   }
+}
+
+.blog-title h5 {
+  color: #353535;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.blog-text p {
+  line-height: 1.8;
 }
