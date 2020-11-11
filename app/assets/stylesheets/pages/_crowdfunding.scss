@@ -8,10 +8,12 @@
 
 .financial-icons {
   overflow: hidden;
-  height: 68px;
+  height: 40px;
   background: white;
   display: flex;
-  align-items: center;
+  align-items: center; h2 {
+    padding-left: 20px;
+  }
 }
 
 .financial-text p {
@@ -20,6 +22,18 @@
   opacity: .7;
   color: #353535;
   margin-left: 100px;
+}
+
+.expenses-text {
+  display: flex;
+  } p {
+  font-size: 16px;
+  color: #353535;
+  margin-left: 20px;
+}
+
+.expenses-number {
+  display: flex;
 }
 
 .expenses-graph {
